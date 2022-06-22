@@ -1,10 +1,21 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Visit from './Pages/Visit'
 import Header from "./Containers/Header/index"
+import Guia from "./Containers/Guia"
+import RedesSocais from "./Containers/Redes-Sociais"
+
+import "./main.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header />
+
+    <section className='container'>
+      <Header />
+      <Guia />
+      {/* Coloque um carrosel aqui */}
+      <RedesSocais />
+
+    </section>
+
   </React.StrictMode>
 )

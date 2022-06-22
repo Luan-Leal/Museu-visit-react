@@ -1,6 +1,9 @@
 import { useState } from 'react'
 
 import "../../Style/global.css"
+import "./index.css"
+
+import Fachada from "../../assets/fachada.jpg"
 
 export function Header() {
   const [count, setCount] = useState(0)
@@ -8,7 +11,7 @@ export function Header() {
   return (
     <section className='container'>
       <div className="header-img">
-        <img className='fachada' src="" alt="Fachada do colegio academia" />
+        <img src={Fachada} className='fachada' alt="Fachada do colegio academia" />
         <div className="info">
           <div className="horario">
             <div className="icon">
@@ -26,7 +29,7 @@ export function Header() {
           
           <div className="contato">
             <div className="icon">
-              <i cclassName="fa-solid fa-arrow-right"></i>
+              <i className="fa-solid fa-arrow-right"></i>
             </div>
             <h1>Onde estamos</h1>
             <p>Rua Halfeld, 1179 - Centro - CEP 36.016-000 - Juiz de Fora - MG</p>

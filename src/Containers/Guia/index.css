@@ -1,0 +1,13 @@
+.guia {
+    margin: auto 15%;
+}
+
+.guia-titulo{
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+.guia-paragrafo p {
+    margin: 3% 0;
+    font-size: 1.2em;
+}
