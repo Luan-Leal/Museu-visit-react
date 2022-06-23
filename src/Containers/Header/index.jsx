@@ -45,8 +45,6 @@ export function Header() {
             </div>
             <h1>Entrada</h1>
             <p>Entrada é <span>gratuita</span></p>
-            <p>Não precisa de ingressos</p>
-            <p>Agendamento de visitas pelo e-mail: museuacademiaces@uniacademia.edu.br</p>
           </div>
         </div>
       </div>

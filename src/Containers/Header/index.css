@@ -29,6 +29,27 @@
     width: 33.3%;
 }
 
+
+@media screen and (max-width: 1000px) {
+    .info {
+        flex-direction: column;
+    }
+    .horario {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    
+    .contato {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    
+    .entrada {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+}
+
 .icon {
     display: flex;
     justify-content: center;
@@ -63,3 +84,4 @@
     font-style: italic;
     text-transform: uppercase;
 }
+

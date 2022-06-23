@@ -12,7 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <section className='container'>
       <Header />
       <Guia />
-      {/* Coloque um carrosel aqui */}
       <RedesSocais />
 
     </section>
